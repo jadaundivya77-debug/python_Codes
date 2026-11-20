@@ -8,3 +8,5 @@ def hash(s):
     return l
 
 print(hash(s))
+
+
