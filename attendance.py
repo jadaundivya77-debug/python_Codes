@@ -12,4 +12,6 @@ def longest(a):
     return max_count
 print(longest(a))
 
+s.start
+
    

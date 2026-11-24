@@ -43,8 +43,8 @@ while True:
     print("Search")
     print("Delete")
     print("Exit")
-    chooice=int(input("Enter your chocie: "))
-    if chooice==1:
+    choice=int(input("Enter your chocie: "))
+    if choice==1:
         name=input("Enter your name : ")
         age=int(input("Enter your age : "))
         class_name= input("Enter your class : ")
@@ -56,10 +56,12 @@ while True:
         f.write(f"Total marks : {total_marks}\n")
         print("Student added successfully")
         f.close()
-    if chooice==2:
+    if choice==2:
         f=open("File.txt", "r")
         print(f.read())
         f.close()
+    
+
     
 
 

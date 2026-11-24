@@ -22,7 +22,7 @@ for i in range(n):
 search=int(input("Enter roll number of the student you want : "))
 for i in range(n):
     if search==s[i][0]:
-        print("Roll no. : ", s[i])
+        print("Roll number : ", s[i][0], "name : ", s[i][0], "Score: ", s[i][2])
         break
     else:
         print("Invalid Roll number")
